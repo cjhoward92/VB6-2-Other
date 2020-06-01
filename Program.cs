@@ -16,7 +16,8 @@ namespace vb6.net
             //     return;
             // }
 
-            string path = @"F:\vb6\TestProj\Class1.cls"; //args[0];
+            // string path = @"F:\vb6\TestProj\Class1.cls";
+            string path = @"F:\vb6\TestProj\Form1.frm";
             string text = null;
             using (var reader = new StreamReader(File.Open(path, FileMode.Open))) {
                 text = reader.ReadToEnd();
